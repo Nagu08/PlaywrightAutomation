@@ -40,8 +40,8 @@ testuserdetails1.forEach((Testdata) => {
       expect(await registerUserResponse.json()).toMatchObject(
         {
           id: expect.any(Number),
-          firstName: "DSSDFSDFSD",
-          lastName: "P",
+          firstName: "ABC",
+          lastName: "EFG",
           email: email,
           password: "qwerty"
       }
@@ -100,8 +100,8 @@ testuserdetails2.forEach((Testdata) => {
     expect(await registerUserResponse.json()).toMatchObject(
       {
         id: expect.any(Number),
-        firstName: "DSSDFSDFSD",
-        lastName: "P",
+        firstName: "ABC",
+        lastName: "EFG",
         email: email,
         password: "qwerty"
     }
